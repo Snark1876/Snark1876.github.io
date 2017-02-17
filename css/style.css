@@ -1,0 +1,1014 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+h1{
+	font-family: Panton Black Caps;
+	font-size: 32px;
+	color: #18191a;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-style:normal;
+	font-size: 26px;
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+.about_us{
+	background-color: #f2f2f3;
+}
+header{
+	background-color: #fff;
+}
+/*----------------первое меню-------------*/
+.menu_logo{
+	margin-right: 19px;
+}
+.menu_icon{
+	margin-right: 13px;
+}
+#navbar_1 .navbar-right,
+#navbar_4 .navbar-right{
+	margin-right: 69px;
+}
+#navbar_4 .navbar-right{
+
+}
+#navbar_1 a{
+	font-size: 12px;
+	color: #18191a;
+}
+#navbar_4 a{
+	color: #fff;
+	font-size: 12px;
+}
+#navbar_1 li > a:hover{
+	background: #68696b;
+	color: #fff;
+}
+
+.navbar-brand{
+	margin-left: 85px;
+}
+.top_line{
+	background-color: #ebebeb;
+	height: 1px;
+	margin-top: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 84%;
+}
+.navbar-text{
+	margin-right: 0;
+	margin-left: 0;
+}
+#navbar_1 > ul:nth-child(1) > li:nth-child(2),
+#navbar_4 > ul:nth-child(1) > li:nth-child(2){
+	font-size: 12px;
+}
+
+/*---------------второе меню-------------*/
+.menu_line a{
+	color: #18191a;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.menu_line .navbar-nav {
+	float: none;
+	text-align: center;
+}
+.menu_line .navbar-nav li {
+	float: none;
+	display: inline-block;
+	text-align: justify;
+	margin-right: 70px;
+}
+.menu_line li:nth-child(6){
+	margin-right: 0;
+}
+.menu_line li > a:hover{
+	background: #68696b;
+}
+.cancel+a{
+	pointer-events: none; 
+	cursor: default;    
+}
+.cancel{
+	height: 2px;
+	width: 109px;
+	background: #ffe47a;
+	position: absolute;
+	margin-top: 24px;
+	margin-left: 10px;
+}
+
+
+/*--------------о компании-----------*/
+.aboutus_company{
+	height: 173px;
+	background-image: url('../img/about-us-head.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.aboutus_company h1{
+	color: #ffd738;
+	font-size: 32px;
+
+}
+.aboutus_company a{
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.aboutus_company .row{
+	margin-top: 38px;
+}
+/*---------о нас наша история-----------*/
+.history{
+	height: 472px;
+	background-image: url('../img/golf.png');
+	background-position: 996px;
+	background-repeat: no-repeat;
+	margin-top: -5px;
+}
+.history_col h2{
+	font-size: 20px;
+	font-style: italic;
+	margin-left: 79px;
+}
+.history_col h1{
+	font-size: 26px;
+	margin-left: 79px;
+}
+.line{
+	height: 3px;
+	width: 60px;
+	background: #f9e771;
+	position: absolute;
+	margin-top: 22px;
+}
+.history_col{
+	margin-top: 44px;
+	margin-left: 100px;
+}
+.history_col h1{
+	margin-bottom: 57px;
+}
+.history_col p{
+	margin-bottom: 30px;
+}
+
+.yellow_line{
+	height: 4px;
+	width: 87%;
+	background: #f9e771;
+	margin-top: 0;
+	float: right;
+}
+/* ---------второй экран --Дружный коллектив-----*/
+.screen_2 h3{
+	text-transform: uppercase;
+	margin-bottom: 29px;
+}
+.screen_2 p{
+	margin-bottom: 32px;
+}
+.basketbol{
+	height: 565px;
+	width: 703px;
+	background-image: url('../img/second screen.png');
+	background-repeat: no-repeat;
+	margin-top: 29px;
+	position: absolute;
+	margin-left: -390px;
+}
+.screen_2{
+	margin-top: 67px;
+}
+
+/*---------third_screen-----------*/
+.yellow_line_l{
+	height: 4px;
+	width: 1626px;
+	position: absolute;
+	margin-top: 90px;
+	background: #f9e771;
+	margin-left: -384px;
+}
+.third_screencol{
+	margin-left: 100px;
+	margin-top: 117px;
+}
+.third_screen{
+	height: 562px;
+	background-image: url('../img/third screen.png');
+	background-position: 804px;
+	background-repeat: no-repeat;
+	margin-top: 40px;
+}
+.third_screen h3{
+	text-transform: uppercase;
+}
+.third_screen h3{
+	margin-bottom: 34px;
+}
+/* -------------footer---------------- */
+footer{
+	background: #25262a;
+	height: 325px;
+}
+footer .row{
+	margin-top: 57px;
+}
+footer nav .container{
+	border-top: 1px solid #3a3b3e;
+	border-bottom: 1px solid #3a3b3e;
+}
+footer nav{
+	margin-top: 42px;
+}
+.copyright{
+	margin-top: -35px;
+}
+.copyright a{
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+.copyright a span{
+	color: #ffd738;
+}
+footer .menu_line a{
+	color: #fff;
+} 
+.fa-bars{
+	border: 1px solid #f9e771;
+	padding: 4px;
+	border-radius: 4px;
+}
+/*-----index----*/
+.index{
+	height: 702px;
+	background-image: url('../img/fon.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#navbar_5 .cancel
+#navbar_6 .cancel{
+	display: none;
+	visibility: hidden;
+}
+#navbar_5 li > a,
+#navbar_6 li > a{
+	color: #fff;
+}
+#navbar_5 li > a:hover,
+#navbar_4 li > a:hover,
+#navbar_6 li > a:hover{
+	background: #27282A;
+	color: #fff;
+}
+#navbar_4 .navbar-text{
+	color: #fff;
+}
+/*---------boys-------------*/
+.boys p{
+	font-style: italic;
+	color: #fff;
+}
+.boys h1{
+	color: #fff;
+}
+.boys h1 span{
+	color: #ffd738;
+}
+/* ---кнопка--- */
+.first_btn2 > a{
+	color: #292a2c;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+}
+.first_btn{
+	width: 186px;
+	height: 51px;
+	margin-top: 81px;
+	border: 1px solid;
+	border-color: #76777a;
+	padding: 7px 31px 8px 31px;
+	position: relative;
+	color: #292a2c;
+	margin-left: 5px;
+}
+.first_btn2{
+	width: 186px;
+	height: 51px;
+	background-color: #ffd738;
+	top: 2px;
+	right: 4px;
+	position: absolute;
+	padding: 3px 31px 8px 29px;
+	border: 1px solid;
+	border-radius: 0;
+	margin-top: -8px; 
+	border-color: #776a37;
+	margin-left: -32px;
+}
+.first_btn2:hover{
+	top: 7px;
+	right: 0px;
+}
+.first_btn2:active{
+	background-color: #16171a;
+	color: #fff;
+}
+.first_btn2 > a:active{
+	color: #fff;
+}
+.boys_fon{
+	height: 566px;
+	width: 895px;
+	background-image: url('../img/boys.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	margin-top: 16px;
+	margin-left: -256px;
+}
+.boys h1{
+	margin-top: 99px;
+	margin-bottom: 25px;
+}
+/*--   -О нас Кто мы-------*/
+.betting{
+	height: 543px;
+	background-image: url('../img/about us.png');
+	background-position: 1036px;
+	background-repeat: no-repeat;
+	margin-top: -4px;
+	background-color: #f8f8f8;
+}
+.line_bottom{
+	height: 4px;
+	width: 75%;
+	background: #F9E771;
+	float: right;
+	margin-top: -4px;
+}
+.advantages h2{
+	margin-top: 52px;
+	margin-bottom: -17px;
+}
+.advantages h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 18px;
+	margin-left: 62px;
+	margin-top: 34px;
+	
+}
+.advantages p{
+	border-left: 2px solid #f9e771;
+	padding-left: 28px;
+}
+.advantages img{
+	position: absolute;
+}
+div.row:nth-child(3) > div:nth-child(1) > h4:nth-child(2){
+	margin-top: 13px;
+}
+/*---Инвестиционные предложения----*/
+.basketball{
+	height: 724px;
+	background-image: url('../img/basketball.png');
+	background-repeat: no-repeat;
+	margin-top: 88px;
+}
+.basketball h2{
+	font-size: 20px;
+	font-style: italic;
+	margin-left: 79px;
+	margin-top: 93px;
+}
+.basketball h1{
+	margin-left: 79px;
+	font-size: 26px;
+}
+.basketball h4{
+	font-weight: 700;
+	text-align: center;
+	position: absolute;
+	background: #fff;
+	margin-top: -13px;
+	margin-left: 64px;
+	padding-left: 19px;
+	padding-right: 19px;
+}
+.basketball li{
+	font-style: italic;
+}
+.frame{
+	height: 597px;
+	width: 1007px;
+	background-color: #f6f6f6;
+	position: absolute;
+	margin-left: 206px;
+	margin-top: 58px;
+}
+.number{
+	font-size: 64px;
+	color: #ffd738;
+}
+.percent{
+	font-size: 30px;
+	color: #ffd738;
+	margin-top: 13px;
+	position: absolute;
+}
+.month{
+	font-size: 18px;
+}
+.basketball li {
+	color: #ffd945; /* Цвет маркеров */
+}
+.basketball li span {
+	color: #18191a; /* Цвет текста */
+}
+.basketball ul{
+	margin-top: 28px;
+}
+.line_text{
+	height: 4px;
+	width: 89%;
+	background: #ffd738;
+	margin-top: 20px;
+}
+.white_back{
+	background: #fff;
+	margin-top: 23px;
+	padding-bottom: 29px;
+	border-left: 29px solid #F6F6F6;
+}
+.white_back .btn-default{
+	background: #ffd738;
+	border-radius: 0;
+	padding: 15px 39px;
+	margin-top: 21px;
+	margin-left: 46px;
+}
+.white_back .btn-default:hover{
+	background: #16171a;
+	border: 1px solid #ffd738;
+	color: #fff;
+}
+.novice{
+	margin-left: 224px;
+}
+.border{
+	height: 664px;
+	width: 62%;
+	border: 4px solid #ffd738;
+	position: absolute;
+	margin-top: 32px;
+	margin-left: 343px;
+	border-right: 4px solid #fff;
+}
+/*steps*/
+
+.element{
+	position: absolute;
+	margin-top: 78px;
+	margin-left: -49px;
+	background: #fff;
+	padding: 0 14px;
+}
+.steps h4{
+	margin-bottom: 20px;
+	margin-top: 87px;
+} 
+.blue_line{
+	height: 2px;
+	width: 840px;
+	background: #f1f4f6;
+	position: absolute;
+	margin-top: 87px;
+	margin-left: 150px;
+}
+.number_foot{
+	height: 230px;
+	background: url('../img/futbol.png') center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: 173px;
+}
+.number_foot h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color: #ffd738;
+	text-align: center;
+}
+.number_foot p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+.footbol{
+	height: 540px;
+}
+
+
+
+
+
+
+@media only screen and (max-width : 1400px){
+	.history{
+		background-position: 727px;
+	}
+	.second_screen{
+		background-position: -315px;
+	}
+	.yellow_line_l{
+		width: 1346px;
+	}
+	.third_screen{
+		background-position: 524px;
+	}
+	.betting{
+		background-position: 785px;
+	}
+	.line_bottom{
+		width: 87%;
+	}
+	.betting{
+		background-position: 603px;
+	}
+	.basketball{
+		background-position: -321px;
+	}
+	.border{
+		width: 66%;
+	}
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	#navbar_2 .navbar-nav li,
+	#navbar_3 .navbar-nav li,
+	#navbar_5 .navbar-nav li,
+	#navbar_6 .navbar-nav li{
+		margin-right: 40px;
+	}
+	#navbar_2 li:nth-child(6),
+	#navbar_3 li:nth-child(6),
+	#navbar_5 li:nth-child(6),
+	#navbar_6 li:nth-child(6){
+		margin-right: 0;
+	}
+	#navbar_1 .navbar-right,
+	#navbar_4 .navbar-right{
+		margin-right: 48px;
+	}
+	.navbar-brand {
+		margin-left: 61px;
+	}
+	.yellow_line{
+		width: 89%;
+	}
+	.boys_fon{
+		margin-left: -334px;
+	}
+	.line_bottom{
+		width: 82%;
+	}
+	.betting{
+		background-position: 700px;
+	}
+	.number_footnumber_foot{
+		margin-top: 56px;
+	}
+	.history {
+		background-position: 652px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	#navbar_2 .navbar-nav li,
+	#navbar_3 .navbar-nav li,
+	#navbar_5 .navbar-nav li,
+	#navbar_6 .navbar-nav li{
+		margin-right: 12px;
+	}
+	#navbar_2 li:nth-child(6),
+	#navbar_3 li:nth-child(6),
+	#navbar_5 li:nth-child(6),
+	#navbar_6 li:nth-child(6){
+		margin-right: 0;
+	}
+	.navbar-brand {
+		margin-left: 28px;
+	}
+	#navbar_1 > ul:nth-child(1),
+	#navbar_4 > ul:nth-child(1){
+		margin-left: -14px;
+	}
+	.navbar-right{
+		margin-right: 0;
+	}
+	#navbar_1 .navbar-right,
+	#navbar_4 .navbar-right{
+		margin-right: 0px;
+	}
+	.yellow_line_l {
+		width: 1190px;
+	}
+	.third_screen {
+		background-position: 368px;
+	}
+	.boys_fon{
+		margin-left: -434px;
+	}
+	.line_bottom{
+		width: 77%;
+	}
+	.history_col{
+		margin-left: 17px;
+		background: rgba(255,255,255,.8);
+		border: 1px solid #f9e771;
+	}
+	.bac{
+		background: rgba(60, 61, 65,.8);
+		border: 1px solid #f9e771;
+		padding-bottom: 37px;
+		margin-top: 29px;
+		margin-left: 33px;
+	}
+	.betting{
+		background-position: 119px;
+	}
+	.novice{
+		margin-left: 0;
+	}
+	.profi{
+		margin-left: 177px;
+		margin-top: -8px;
+	}
+	.frame{
+		width: 614px;
+	}
+	.border{
+		width: 52%;
+	}
+	.steps .history_col {
+		margin-left: 17px;
+		background: rgba(255,255,255,.0);
+		border: 0px solid #f9e771;
+	}
+	.four_steps{
+		margin-top: 344px;
+	}
+	.blue_line{
+		display: none;
+		visibility: hidden;
+	}
+	.bucks{
+		margin-top: -215px;
+	}
+	.monet{
+		margin-top: 43px;
+	}
+	.number_foot{
+		height: 300px;
+		margin-top: 50px;
+	}
+	.frame {
+		width: 542px;
+	}
+	.history {
+		background-position: 342px;
+	}
+	footer{
+		height: 414px;
+	}
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.navbar-text{
+		font-size: 0;
+	}
+	#navbar_2 .navbar-nav li,
+	#navbar_5 .navbar-nav li,
+	#navbar_6 .navbar-nav li{
+		margin-right: 20px;
+	}
+	#navbar_2 li:nth-child(6),
+	#navbar_5 li:nth-child(6),
+	#navbar_6 li:nth-child(6){
+		margin-right: 0;
+	}
+	#navbar_1 .navbar-nav li,
+	#navbar_2 .navbar-nav li,
+	#navbar_3 .navbar-nav li,
+	#navbar_4 .navbar-nav li,
+	#navbar_5 .navbar-nav li,
+	#navbar_6 .navbar-nav li{
+		display: inline;
+	}
+	#navbar_3 .navbar-nav{
+		background: #25262A;
+		padding-bottom: 30px;
+	}
+	#navbar_1 .navbar-text,
+	#navbar_4 .navbar-text{
+		display: none;
+		visibility: hidden;
+	}
+	.cancel {
+		display: none;
+		visibility: hidden;
+	}
+	.cancel+a{
+		text-decoration-line: line-through;
+		text-decoration-color: #ffe47a; 
+	}
+	.nav > li > a{
+		margin-bottom: -24px;
+	}
+	#navbar_2 li:nth-child(6) > a,
+	#navbar_5 li:nth-child(6) > a,
+	#navbar_6 li:nth-child(6) > a{
+		padding-bottom: 13px;
+	}
+	#navbar_1 li,
+	#navbar_4 li{
+		margin-right: 16px;
+	}
+	.history_col{
+		margin-left: 17px;
+	}
+	.yellow_line_l{
+		width: 100%;
+	}
+	.screen_2{
+		background: rgba(255,255,255,.8);
+		border: 1px solid #f9e771;
+		margin-left: 17px;
+	}
+	.third_screen {
+		background-position: 700px;
+	}
+	.third_screencol {
+		margin-left: 17px;
+		background: rgba(255,255,255,.8);
+		border: 1px solid #f9e771;
+	}
+	#navbar_3 .cancel+a{
+		text-decoration: none;
+	}
+	.boys h1 {
+		margin-top: 10px;
+	}
+	.index {
+		height: 750px;
+	}
+	.line_bottom {
+		width: 100%;
+	}
+	.profi{
+		width: 320px;
+		margin-top: -8px;
+	}
+	.frame {
+		height: 1451px;
+		margin-left: -13px;
+		background: rgba(246, 246, 246,.8);
+	}
+
+	.white_back{
+		margin-left: 50px;
+	}
+	.novice{
+		margin-left: 50px;
+		width: 320px;
+	}
+	.proposal{
+		width: 360px;
+		background: rgba(255,255,255,.8);
+		border: 1px solid #f9e771;
+		margin-left: 52px;
+		margin-top: 15px;
+	}
+	.basketball div.col-xs-12:nth-child(2){
+		width: 320px;
+	}
+	.frame {
+		width: 100%;
+	}
+	.border{
+		display: none;
+		visibility: hidden;
+	}
+	.bucks{
+		margin-top: 0;
+	}
+	.monet{
+		margin-top: 0;
+	}
+	.partners{
+		display: none;
+		visibility: hidden;
+	}
+	footer nav{
+		background: #25262A;
+	}
+	.frame {
+		display: none;
+		visibility: hidden;
+	}
+	.third_screen {
+    	background-position: 76px;
+	}
+	.four_steps{
+		margin-top: 854px;
+	}
+}
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.history_col{
+		margin-left: 28px;
+	}
+	.line{
+		display: none;
+	}
+	.history_col h1,
+	.history_col h2{
+		margin-left: 0;
+	}
+	.yellow_line1{
+		padding-left: 0;
+	}
+	.yellow_line{
+		width: 100%;
+		margin-top: 121px;
+	}
+	.history_col h1,
+	.screen_2 h3{
+		margin-bottom: 12px;
+	}
+	.history_col p,
+	.screen_2 p,
+	.third_screen p{
+		font-size: 14px;
+	}
+	.third_screen {
+    	background-position: -124px;
+    	margin-top: 85px;
+	}
+	.history{
+		margin-bottom: -127px;
+	}
+	.screen_2 {
+		margin-top: 8px;
+		width: 366px;
+	}
+	.yellow_line_l{
+		width: 100%;
+		margin-top: 0;
+	}
+	.second_screen{
+		margin-top: 151px;
+	}
+	.third_screencol {
+		margin-top: 0;
+	}
+	.yellow_line_l {
+		display: none;
+		visibility: hidden;
+	}
+	.second_screen{
+		border-bottom: 4px solid #f9e771;
+	}
+	.partners{
+		display: none;
+		visibility: hidden;
+	}
+	footer {
+		height: 123px;
+	}
+	.copyright{
+		display: none;
+		visibility: hidden;
+	}
+	#navbar_3{
+		background: #242529;
+	}
+	.index {
+		height: 750px;
+	}
+	.first_btn{
+		margin-top: 43px;
+	}
+	.bac h1{
+		font-size: 23px;
+	}
+	.advantages .history_col{
+		border: 0;
+	}
+	.boys_fon{
+		margin-left: -587px;
+	}
+	.boys h1{
+		font-size: 22px;
+	}
+	.pad{
+		margin-left: 29px;
+	}
+	.profi {
+		margin-left: 0;
+		width: 274px;
+	}
+	.white_back {
+		margin-left: 49px;
+	}
+	.novice{
+		margin-left: 50px;
+		width: 291px;
+	}
+	.basketball div.col-xs-12:nth-child(2) {
+		width: 291px;
+	}
+	.basketball h1 {
+		font-size: 21px;
+		margin-left: 21px;
+	}
+	.basketball h2{
+		margin-left: 21px;
+		margin-top: 18px;
+	}
+	.basketball{
+		margin-left: -25px;
+	}
+	.proposal {
+		width: 281px;
+		background: rgba(255,255,255,.8);
+		border: 1px solid #f9e771;
+		margin-top: 13px;
+
+	}
+	.number_foot h3{
+		font-size: 25px;
+	}
+	footer nav{
+		background: #25262A;
+	}
+	.footbol {
+		height: 478px;
+	}
+	.frame {
+		display: none;
+		visibility: hidden;
+	}
+	.white_back{
+		padding-right: 0px;
+	}
+	.border{
+		display: none;
+		visibility: hidden;
+	}
+	.history {
+		background-position: 62px;
+	}
+	.four_steps{
+		margin-top: 825px;
+	}
+
+}
